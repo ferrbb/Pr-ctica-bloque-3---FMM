@@ -1,0 +1,43 @@
+<div class="divfrmModificarSocio" id="divfrmModificarSocio">
+    <form name="frmModificarSocio" id="frmModificarSocio">
+        <legend><b>Modificar Socio</b></legend>
+        <hr>
+        <select class="form-select mb-3" aria-label="Selecciona un socio" id="comboSocios">
+            <option selected value = "nulo">Selecciona un socio...</option>
+        </select>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Usuario</span>
+            <input title="Nombre de usuario" type="text" name="nombreUsuarioSocioModificar" id="nombreUsuarioSocioModificar" class="form-control nombreUsuarioSocioModificar" placeholder="Nombre usuario" aria-label="Nombre usuario" aria-describedby="basic-addon1" required>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Contraseña</span>
+            <input title="Nombre de socio" type="password" name="contraseñaSocioModificar" id="contraseñaSocioModificar" class="form-control contraseñaSocioModificar" placeholder="Contraseña" aria-label="Contraseña" aria-describedby="basic-addon1" required>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Nombre</span>
+            <input type="text" class="form-control nombreSocioModificar" name="nombreSocioModificar" placeholder="Nombre y Apellidos" aria-label="Nombre y apellidos" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">DNI</span>
+            <input type="text" class="form-control dniSocioModificar" name="dniSocioModificar" placeholder="DNI" aria-label="DNI" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Edad</span>
+            <input type="number" class="form-control edadModificar" name="edadModificar" placeholder="Edad" aria-label="Edad" aria-describedby="basic-addon1">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="radioSexo" id="radioSexoHombre" value="h" checked>
+            <label class="form-check-label" for="radioSexo">Hombre</label>
+        </div>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="radioSexo" value="f" id="radioSexoMujer">
+            <label class="form-check-label" for="radioSexo">Mujer</label>
+        </div>
+        <div class="form-check form-switch mb-3">
+            <input class="form-check-input" type="checkbox" role="switch" name="checkMonitorModificar" id="checkMonitorModificar">
+            <label class="form-check-label" for="checkMonitor">Monitor</label>
+          </div>
+        <input type="button" name="botonEnviar" id="botonEnviar" value="Aceptar" class="btn btn-success">
+        <input type="reset" name="botonCancelar" value="Cancelar" class="btn btn-danger">
+    </form>
+</div>

@@ -1,0 +1,96 @@
+<gestion>
+
+    <socio>
+        <nombre>Luisa</nombre>
+        <dni>35018269J</dni>
+        <edad>20</edad>
+        <sexo>Femenino</sexo>
+        <monitor>No</monitor>
+    </socio>
+
+    <socio>
+        <nombre>Mario</nombre>
+        <dni>66677788G</dni>
+        <edad>33</edad>
+        <sexo>Masculino</sexo>
+        <monitor>No</monitor>
+    </socio>
+
+    <socio>
+		<nombre>Fernando</nombre>
+		<dni>30216249E</dni>
+		<edad>21</edad>
+		<sexo>Masculino</sexo>
+		<monitor>Si</monitor>
+	</socio>
+
+	<socio>
+		<nombre>Ángela</nombre>
+		<dni>21356789H</dni>
+		<edad>39</edad>
+		<sexo>Femenino</sexo>
+		<monitor>Si</monitor>
+	</socio>
+
+    <tarifa>
+        <nombre>Tarifa pequeña</nombre>
+        <precio>29,90 €/mes</precio>
+        <tipo>1</tipo>
+        <duracion>3 meses</duracion>
+    </tarifa>
+
+    <tarifa>
+        <nombre>Tarifa mediana</nombre>
+        <precio>24,90 €/mes</precio>
+        <tipo>2</tipo>
+        <duracion>6 meses</duracion>
+    </tarifa>
+
+    <tarifa>
+        <nombre>Tarifa grande</nombre>
+        <precio>22,90 €/mes</precio>
+        <tipo>3</tipo>
+        <duracion>12 meses</duracion>
+    </tarifa>
+
+    <contratacion>
+        <nombre>Tarifa 1</nombre>
+        <descripcion>Reservar la tarifa 1</descripcion>
+        <fechaContratacion>2022-03-28 17:00</fechaContratacion>
+        <fechaFin>2022-03-28 18:00</fechaFin>
+        <idtarifa>1</idtarifa>
+        <socioContrata>39018269F</socioContrata>
+    </contratacion>
+
+    <contratacion>
+        <nombre>Tarifa 2</nombre>
+        <descripcion>Reservar la tarifa 2</descripcion>
+        <fechaContratacion>2022-03-28 21:00</fechaContratacion>
+        <fechaFin>2022-03-28 22:00</fechaFin>
+        <idtarifa>2</idtarifa>
+        <socioContrata>59018269G</socioContrata>
+    </contratacion>
+
+    <clase>
+        <iIdClase>1</iIdClase>
+        <sNombre>Clase de Pilates</sNombre>
+        <sDescripcion>Clase de pilates</sDescripcion>
+        <dtInicio> 2022-05-28 18:30:00</dtInicio>
+        <dtFin>2022-05-28 19:30:00</dtFin>
+        <iCapacidad>15</iCapacidad>
+        <sTipoActividad>Pilates</sTipoActividad>
+        <siIdmonitor>21356789H</siIdmonitor>
+    </clase>
+
+     <clase>
+        <iIdClase>2</iIdClase>
+        <sNombre>Clase de Yoga</sNombre>
+        <sDescripcion>Clase de Yoga</sDescripcion>
+        <dtInicio>2022-07-12 20:30:00</dtInicio>
+        <dtFin>2022-07-12 22:30:00</dtFin>
+        <iCapacidad>5</iCapacidad>
+        <sTipoActividad>Yoga</sTipoActividad>
+        <siIdmonitor>30216249E</siIdmonitor>
+    </clase>
+
+</gestion>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>BLOQUE II: Gimnasio</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body class="container-fluid">
+        <div id="titulo">
+            <a class="principal" href="index.html"><h1><b>PRÁCTICA BLOQUE II: Gimnasio</b></h1></a>
+        </div>
+
+        
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+            <div class="container-fluid">
+                <ul class="nav nav-tabs">
+                    <li id="liAltaSocio" class="nav-item">
+                        <a title="Alta socio" href="#" class="opcion nav-link" id="altaSocio">Alta Socio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Modificar socio" href="#" class="opcion nav-link" id="modificarSocio">Modificar Socio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Alta tarifa" href="#" class="opcion nav-link" id="altaTarifa">Alta Tarifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Contratar tarifa" href="#" class="opcion nav-link" id="contratarTarifa">Contratar Tarifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Crear una clase" href="#" class="opcion nav-link" id="crearClase">Crear una Clase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Apuntarse a clase" href="#" class="opcion nav-link" id="apuntarClase">Apuntarse a una Clase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Listados" href="#" class="opcion nav-link" id="listados">Listados</a>
+                    </li>
+                    <li class="nav-item">
+                        <button title="Cambiar de cuenta" id="cambiarCuenta" style="margin-left: 35px; margin-top: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                          </svg></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+
+        
+
+            <div id="formularios">
+                <div>
+                <div id="divfrmLogin">
+                        <form name="frmLogin" id="frmLogin">
+                        <legend><b>Login</b></legend>
+                        <hr>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Usuario</span>
+                            <input title="Nombre de usuario" type="text" id="nombreUsuario" class="form-control nombreUsuario" placeholder="Nombre de usuario" aria-label="Nombre de usuario" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Contraseña</span>
+                            <input title="Contraseña" type="password" id="contraseñaUsuario" class="form-control contraseñaUsuario" placeholder="Contraseña" aria-label="contraseña" aria-describedby="basic-addon1" required >
+                        </div>
+                        <p><b>¿No está registrado? </b><input type="button" id="registrarse" name="registrarse" value="Registrarse" class="btn btn-success"></p>
+                        <div class="d-grid gap-2 d-md-block">
+                            <input type="button" id="verificar" name="verificar" value="Aceptar" class="btn btn-success">
+                            <input type="reset" name="botonCancelar" id="botonCancelar" value="Cancelar" class="btn btn-danger">
+                        </div>
+                    </form>
+                </div>
+               </div>
+                
+            </div>
+
+            <div id="listado">
+                
+            </div>
+
+        <script src="jquery/jquery-1.11.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/objeto.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/codigo.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+
+        
+
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+        <script type="text/javascript" src="login/login.js"></script>*/-->
+    </body>
+</html>

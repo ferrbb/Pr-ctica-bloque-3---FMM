@@ -1,0 +1,46 @@
+<div class="divfrmContratarTarifa">
+    <form name="frmContratarTarifa" id="frmContratarTarifa">
+        <legend><b>Contratar Tarifa</b></legend>
+        <hr>
+        <legend>Cliente</legend>
+        <fieldset style="border: 1px solid black; padding: 25px; margin-bottom: 10px;">
+            <select class="form-select mb-3" aria-label="Selecciona un socio" id="nombreSocios">
+                <option selected value = "nulo">Selecciona un socio...</option>
+            </select>
+        <div class="input-group mb-3">
+            <span class="input-group-text nombreCliente" id="basic-addon1">Nombre</span>
+            <input type="text" class="form-control nombreCliente"  name="nombreCliente" id="nombreCliente"  placeholder="Nombre del cliente"  aria-label="Nombre del cliente" aria-describedby="basic-addon1" readonly>
+        </div>
+        </fieldset>
+
+        <legend>Tarifa</legend>
+        <fieldset style="border: 1px solid black; padding: 25px; margin-bottom: 10px;">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Nombre</span>
+            <select name="nombreTarifa" id="nombreTarifa" >
+                <option value="nulo" disabled selected>Seleccione un nombre...</option>
+                <option value="p" data-tiempo="3" data-type="Pequeña" data-precio="24,90">Tarifa pequeña</option>
+                <option value="m" data-tiempo="6" data-type="Mediana" data-precio="22,90">Tarifa mediana</option>
+                <option value="g" data-tiempo="12" data-type="Grande" data-precio="20,90">Tarifa grande</option>
+                <option value="v" data-tiempo="2" data-type="Tarifa Verano" data-precio="15,90">Tarifa Verano (Oferta temporal)</option>
+            </select>
+        </div>
+        
+        
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Precio por mes</span>
+            <input type="text" class="form-control precioTarifa"  name="precioTarifa" id="precioTarifa" placeholder="Precio de la Tarifa" aria-label="Precio de la tarifa" aria-describedby="basic-addon1" readonly>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Tipo</span>
+            <input type="text" class="form-control tipoTarifa"  name="tipoTarifa" id="tipoTarifa"  placeholder="Tipo de Tarifa" aria-label="Tipo de Tarifa" aria-describedby="basic-addon1" readonly>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Duración en meses</span>
+            <input type="text" class="form-control duracionTarifa"  name="duracionTarifa" id="duracionTarifa"  placeholder="Duración por mes" aria-label="Duración de la Tarifa" aria-describedby="basic-addon1" readonly>
+        </div>
+    </fieldset>
+        <input type="button" name="botonEnviar" id="botonEnviar" value="Aceptar" class="btn btn-success">
+        <input type="reset" name="botonCancelar" value="Cancelar" class="btn btn-danger">
+    </form>
+</div>

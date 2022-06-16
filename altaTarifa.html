@@ -1,0 +1,31 @@
+<div class="divfrmAltaTarifa" id="divfrmAltaTarifa">
+    <form name="frmAltaTarifa" id="frmAltaTarifa">
+        <legend><b>Alta Tarifa</b></legend>
+        <hr>
+        
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Nombre</span>
+            <input type="text" class="form-control nombreTarifa"  name="nombreTarifa" placeholder="Nombre de la tarifa" aria-label="Nombre de la tarifa" aria-describedby="basic-addon1" >
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Precio</span>
+            <input type="text" class="form-control precioTarifa"  name="precioTarifa" placeholder="Precio de la tarifa" aria-label="Precio de la tarifa" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Tipo</span>
+            <select name="tipo" id="tipo" >
+                <option value="0" disabled selected>Seleccione un tipo...</option>
+                <option value="p" data-duracion="3">Tarifa pequeña</option>
+                <option value="m" data-duracion="6">Tarifa mediana</option>
+                <option value="g" data-duracion="12">Tarifa grande</option>
+                <option value="v" data-duracion="2">Tarifa Verano (Oferta temporal)</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Duración en meses</span>
+            <input type="number" name="txtDuracion" id="txtDuracion" class="form-control duracionTarifa" placeholder="Duración de la tarifa" aria-label="duracion" aria-describedby="basic-addon1" readonly>
+        </div>
+        <input type="button" name="botonEnviar" value="Aceptar" class="btn btn-success">
+        <input type="reset" name="botonCancelar" value="Cancelar" class="btn btn-danger">
+    </form>
+</div>
